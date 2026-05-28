@@ -1,0 +1,152 @@
+[
+  {
+    "frase": "La imaginación es más importante que el conocimiento.",
+    "autor": "Albert Einstein",
+    "epoca": "Siglo XX",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "La vida es aquello que te va sucediendo mientras te empeñas en hacer otros planes.",
+    "autor": "John Lennon",
+    "epoca": "Siglo XX",
+    "categoria": "Música"
+  },
+  {
+    "frase": "El que lee mucho y anda mucho, ve mucho y sabe mucho.",
+    "autor": "Miguel de Cervantes",
+    "epoca": "Siglo XVI-XVII",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "Ser o no ser, esa es la cuestión.",
+    "autor": "William Shakespeare",
+    "epoca": "Siglo XVI-XVII",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "Solo sé que no sé nada.",
+    "autor": "Sócrates",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "El hombre es la medida de todas las cosas.",
+    "autor": "Protágoras",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Dime y lo olvido, enséñame y lo recuerdo, involúcrame y lo aprendo.",
+    "autor": "Benjamin Franklin",
+    "epoca": "Siglo XVIII",
+    "categoria": "Política"
+  },
+  {
+    "frase": "La educación es el arma más poderosa que puedes usar para cambiar el mundo.",
+    "autor": "Nelson Mandela",
+    "epoca": "Siglo XX-XXI",
+    "categoria": "Política"
+  },
+  {
+    "frase": "El arte es la mentira que nos permite conocer la verdad.",
+    "autor": "Pablo Picasso",
+    "epoca": "Siglo XX",
+    "categoria": "Arte"
+  },
+  {
+    "frase": "No llores porque terminó, sonríe porque sucedió.",
+    "autor": "Gabriel García Márquez",
+    "epoca": "Siglo XX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "La libertad no es otra cosa que la oportunidad de ser mejores.",
+    "autor": "Albert Camus",
+    "epoca": "Siglo XX",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La felicidad no es algo hecho. Viene de tus propias acciones.",
+    "autor": "Dalái Lama",
+    "epoca": "Siglo XX-XXI",
+    "categoria": "Espiritualidad"
+  },
+  {
+    "frase": "En el principio era el Verbo.",
+    "autor": "San Juan Evangelista",
+    "epoca": "Antigüedad",
+    "categoria": "Religión"
+  },
+  {
+    "frase": "Cogito ergo sum. (Pienso, luego existo.)",
+    "autor": "René Descartes",
+    "epoca": "Siglo XVII",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "No hay camino para la paz; la paz es el camino.",
+    "autor": "Mahatma Gandhi",
+    "epoca": "Siglo XX",
+    "categoria": "Política"
+  },
+  {
+    "frase": "La única forma de hacer un gran trabajo es amar lo que haces.",
+    "autor": "Steve Jobs",
+    "epoca": "Siglo XX-XXI",
+    "categoria": "Tecnología"
+  },
+  {
+    "frase": "Dos cosas son infinitas: el universo y la estupidez humana; y del universo no estoy seguro.",
+    "autor": "Albert Einstein",
+    "epoca": "Siglo XX",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "El secreto de la salud mental y corporal está en no llorar por las pérdidas, sino en adaptarse a los cambios.",
+    "autor": "Charles Darwin",
+    "epoca": "Siglo XIX",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "Lo que sabemos es una gota de agua; lo que ignoramos es el océano.",
+    "autor": "Isaac Newton",
+    "epoca": "Siglo XVII-XVIII",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "La vida sin examen no merece ser vivida.",
+    "autor": "Sócrates",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "He aprendido que la gente olvidará lo que dijiste, olvidará lo que hiciste, pero nunca olvidará cómo la hiciste sentir.",
+    "autor": "Maya Angelou",
+    "epoca": "Siglo XX-XXI",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "La música es el lenguaje del alma.",
+    "autor": "Ludwig van Beethoven",
+    "epoca": "Siglo XVIII-XIX",
+    "categoria": "Música"
+  },
+  {
+    "frase": "No existe un camino hacia la felicidad: la felicidad es el camino.",
+    "autor": "Buda",
+    "epoca": "Antigüedad",
+    "categoria": "Espiritualidad"
+  },
+  {
+    "frase": "El amor es la única fuerza capaz de transformar a un enemigo en amigo.",
+    "autor": "Martin Luther King",
+    "epoca": "Siglo XX",
+    "categoria": "Política"
+  },
+  {
+    "frase": "Dondequiera que vayas, ve con todo tu corazón.",
+    "autor": "Confucio",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  }
+]
