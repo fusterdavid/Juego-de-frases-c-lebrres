@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🖋 FraseReto — Juego de frases célebres (David F)</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --bg: #f5f0e8;
+  --surface: #fffdf8;
+  --accent: #5c3d1e;
+  --accent2: #a0522d;
+  --muted: #8a7560;
+  --border: #d9cfc0;
+  --correct: #2e6b3e;
+  --incorrect: #8b1a1a;
+  --partial: #7a5c00;
+  --pill-bg: #ede8de;
+}
+
+*{ box-sizing: border-box; margin:0; padding:0; }
+
+body{
+  background: var(--bg);
+  font-family: 'DM Sans', sans-serif;
+  color: #2a1f14;
+  min-height: 100vh;
+  padding: 32px 16px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header{
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+header h1{
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: -0.5px;
+}
+
+header p{
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+main{
+  width: 100%;
+  max-width: 700px;
+  background: var(--surface);
+  border-radius: 18px;
+  padding: 32px 28px;
+  border: 1px solid var(--border);
+  box-shadow: 0 6px 28px rgba(80,50,20,0.09);
+}
+
+/* ---- PUNTAJE ---- */
+#score-area{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+#score-area .score-val{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+#score-area .counter{
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+/* ---- FRASE ---- */
+#quote-box{
+  background: var(--pill-bg);
+  border-left: 4px solid var(--accent2);
+  border-radius: 0 12px 12px 0;
+  padding: 24px 24px 20px;
+  margin-bottom: 28px;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#quote-text{
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  line-height: 1.65;
+  color: #2a1f14;
+  text-align: center;
+}
+
+#quote-text.loading-text{
+  color: var(--muted);
+  font-size: 1rem;
+  font-style: normal;
+}
+
+/* ---- CATEGORÍAS PILL ---- */
+.pills{
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.pill{
+  background: var(--pill-bg);
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  padding: 4px 14px;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+/* ---- INPUTS ---- */
+.input-group{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+input{
+  width: 100%;
+  padding: 13px 16px;
+  border: 1.5px solid var(--border);
+  border-radius: 10px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  background: #fff;
+  color: #2a1f14;
+  transition: border-color 0.2s;
+  outline: none;
+}
+
+input:focus{
+  border-color: var(--accent2);
+}
+
+input::placeholder{
+  color: #b5a898;
+}
+
+/* ---- BOTONES ---- */
+.btn-row{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+button{
+  flex: 1;
+  min-width: 120px;
+  padding: 13px 16px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.18s, transform 0.12s;
+}
+
+button:active{ transform: scale(0.97); }
+
+#btn-check{
+  background: var(--accent);
+  color: #fff;
+  flex: 2;
+}
+#btn-check:hover{ opacity: 0.88; }
+
+#btn-next{
+  background: var(--pill-bg);
+  color: var(--accent);
+  border: 1.5px solid var(--border);
+}
+#btn-next:hover{ background: var(--border); }
+
+#btn-hint{
+  background: var(--pill-bg);
+  color: var(--muted);
+  border: 1.5px solid var(--border);
+  flex: 1 1 100%;
+  font-size: 0.88rem;
+}
+#btn-hint:hover{ background: var(--border); }
+
+/* ---- FEEDBACK ---- */
+#feedback{
+  margin-top: 20px;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.6;
+  padding: 16px;
+  border-radius: 12px;
+  display: none;
+}
+
+#feedback.correct{
+  background: #e8f5ec;
+  color: var(--correct);
+  border: 1px solid #b2d8bb;
+  display: block;
+}
+
+#feedback.incorrect{
+  background: #fdeaea;
+  color: var(--incorrect);
+  border: 1px solid #f0b8b8;
+  display: block;
+}
+
+#feedback.partial{
+  background: #fef8e3;
+  color: var(--partial);
+  border: 1px solid #e6d68a;
+  display: block;
+}
+
+/* ---- OVERLAY CANVAS ---- */
+#info-overlay{
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(30,18,8,0.55);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#info-overlay.visible{ display: flex; }
+
+#info-canvas{
+  background: var(--surface);
+  border-radius: 18px;
+  max-width: 500px;
+  width: 100%;
+  padding: 32px 28px 28px;
+  border: 1px solid var(--border);
+  position: relative;
+  animation: fadeUp 0.22s ease;
+}
+
+@keyframes fadeUp{
+  from{ transform: translateY(20px); opacity: 0; }
+  to  { transform: translateY(0);    opacity: 1; }
+}
+
+#info-canvas h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 6px;
+  padding-right: 32px;
+  font-style: italic;
+}
+
+#canvas-author{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #2a1f14;
+  margin-bottom: 14px;
+}
+
+#canvas-meta{
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+#canvas-meta span{
+  background: var(--pill-bg);
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  padding: 4px 14px;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+#btn-close-canvas{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--pill-bg);
+  border: 1px solid var(--border);
+  font-size: 1rem;
+  cursor: pointer;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  flex: unset;
+  min-width: unset;
+  transition: background 0.15s;
+}
+
+#btn-close-canvas:hover{ background: var(--border); }
+
+/* ---- PROGRESO ---- */
+#progress-bar-wrap{
+  height: 4px;
+  background: var(--pill-bg);
+  border-radius: 4px;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+#progress-bar{
+  height: 100%;
+  background: var(--accent2);
+  border-radius: 4px;
+  transition: width 0.4s ease;
+  width: 0%;
+}
+
+.small{
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.8rem;
+  margin-top: 24px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>🖋 FraseReto</h1>
+  <p>¿De quién es esta frase célebre? — David F</p>
+</header>
+
+<main>
+
+  <div id="score-area">
+    <div>
+      Puntaje: <span class="score-val" id="score">0</span>
+    </div>
+    <div class="counter">Ronda <span id="round">1</span></div>
+  </div>
+
+  <div id="progress-bar-wrap">
+    <div id="progress-bar"></div>
+  </div>
+
+  <div id="quote-box">
+    <p id="quote-text" class="loading-text">Cargando frase...</p>
+  </div>
+
+  <div class="pills" id="pills-area"></div>
+
+  <div class="input-group">
+    <input id="author-answer" placeholder="¿Quién dijo esta frase?" />
+    <input id="era-answer" placeholder="¿En qué época? (ej: Siglo XX)" />
+  </div>
+
+  <div class="btn-row">
+    <button id="btn-check" onclick="checkAnswers()">Responder</button>
+    <button id="btn-next" onclick="loadQuote()">Nueva frase</button>
+  </div>
+
+  <button id="btn-hint" onclick="showInfo()">🔍 No reconozco la frase — mostrame los datos</button>
+
+  <div id="feedback"></div>
+
+</main>
+
+<p class="small">Frases obtenidas desde un archivo JSON en GitHub.</p>
+
+<!-- OVERLAY -->
+<div id="info-overlay">
+  <div id="info-canvas">
+    <button id="btn-close-canvas" onclick="closeInfo()" title="Cerrar">✕</button>
+    <h2 id="canvas-quote"></h2>
+    <div id="canvas-author"></div>
+    <div id="canvas-meta"></div>
+  </div>
+</div>
+
+<script>
+
+// =========================================
+// CONFIGURACIÓN — cambiá esta URL por tu
+// raw URL de GitHub cuando subas el JSON
+// =========================================
+
+const JSON_URL =
+  "https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/frases.json";
+
+// =========================================
+// ESTADO
+// =========================================
+
+let allQuotes   = [];
+let shownIdx    = new Set();
+let current     = null;
+let score       = 0;
+let round       = 1;
+
+// =========================================
+// CARGA DEL JSON
+// =========================================
+
+async function loadData(){
+  setQuoteText("Conectando con el archivo de frases...", true);
+  try{
+    const res  = await fetch(JSON_URL);
+    if(!res.ok) throw new Error("HTTP " + res.status);
+    allQuotes  = await res.json();
+    loadQuote();
+  }catch(e){
+    setQuoteText("❌ No se pudo cargar el archivo JSON. Verificá la URL en el código.", true);
+    console.error(e);
+  }
+}
+
+// =========================================
+// CARGAR FRASE
+// =========================================
+
+function loadQuote(){
+  clearFeedback();
+  document.getElementById("author-answer").value = "";
+  document.getElementById("era-answer").value    = "";
+  closeInfo();
+
+  if(allQuotes.length === 0){
+    setQuoteText("No hay frases disponibles.", true);
+    return;
+  }
+
+  // Si ya se mostraron todas, reiniciar
+  if(shownIdx.size >= allQuotes.length) shownIdx.clear();
+
+  const unseen = allQuotes
+    .map((_,i) => i)
+    .filter(i => !shownIdx.has(i));
+
+  const idx = unseen[Math.floor(Math.random() * unseen.length)];
+  shownIdx.add(idx);
+  current = allQuotes[idx];
+
+  // Mostrar frase
+  setQuoteText(`"${current.frase}"`, false);
+
+  // Pills: categoría (NO muestra autor ni época todavía)
+  const pillsArea = document.getElementById("pills-area");
+  pillsArea.innerHTML = "";
+  if(current.categoria){
+    const p = document.createElement("span");
+    p.className = "pill";
+    p.textContent = "📂 " + current.categoria;
+    pillsArea.appendChild(p);
+  }
+
+  // Barra de progreso
+  const pct = Math.round((shownIdx.size / allQuotes.length) * 100);
+  document.getElementById("progress-bar").style.width = pct + "%";
+
+  // Ronda
+  document.getElementById("round").textContent = round++;
+}
+
+function setQuoteText(text, isLoading){
+  const el = document.getElementById("quote-text");
+  el.textContent = text;
+  el.className   = isLoading ? "loading-text" : "";
+}
+
+// =========================================
+// NORMALIZAR
+// =========================================
+
+function normalize(t){
+  return t
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g,"")
+    .trim();
+}
+
+// =========================================
+// VALIDAR RESPUESTAS
+// =========================================
+
+function checkAnswers(){
+  if(!current) return;
+
+  const userAuthor = normalize(document.getElementById("author-answer").value);
+  const userEra    = normalize(document.getElementById("era-answer").value);
+
+  if(!userAuthor && !userEra){
+    showFeedback("Escribí al menos el autor o la época.", "partial");
+    return;
+  }
+
+  const correctAuthor = normalize(current.autor);
+  const correctEra    = normalize(current.epoca);
+
+  const authorOk =
+    userAuthor.length > 0 &&
+    (correctAuthor.includes(userAuthor) || userAuthor.includes(correctAuthor));
+
+  const eraOk =
+    userEra.length > 0 &&
+    (correctEra.includes(userEra) || userEra.includes(correctEra));
+
+  const answer = `<strong>${current.autor}</strong> — ${current.epoca}`;
+
+  if(authorOk && eraOk){
+    score += 20;
+    updateScore();
+    showFeedback(`✅ ¡Correcto en los dos! +20 pts<br><br>${answer}`, "correct");
+
+  }else if(authorOk){
+    score += 12;
+    updateScore();
+    showFeedback(`🟡 Acertaste el autor. La época era: <em>${current.epoca}</em><br><br>${answer}`, "partial");
+
+  }else if(eraOk){
+    score += 8;
+    updateScore();
+    showFeedback(`🟡 Acertaste la época. El autor era: <em>${current.autor}</em><br><br>${answer}`, "partial");
+
+  }else{
+    showFeedback(`❌ Incorrecto<br><br>${answer}`, "incorrect");
+  }
+}
+
+function updateScore(){
+  document.getElementById("score").textContent = score;
+}
+
+function showFeedback(html, type){
+  const el = document.getElementById("feedback");
+  el.innerHTML  = html;
+  el.className  = type;
+}
+
+function clearFeedback(){
+  const el = document.getElementById("feedback");
+  el.innerHTML = "";
+  el.className = "";
+  el.style.display = "";
+}
+
+// =========================================
+// OVERLAY INFO
+// =========================================
+
+function showInfo(){
+  if(!current) return;
+  document.getElementById("canvas-quote").textContent  = `"${current.frase}"`;
+  document.getElementById("canvas-author").textContent = current.autor || "Autor desconocido";
+
+  let meta = "";
+  if(current.epoca)     meta += `<span>📅 ${current.epoca}</span>`;
+  if(current.categoria) meta += `<span>📂 ${current.categoria}</span>`;
+  document.getElementById("canvas-meta").innerHTML = meta;
+
+  document.getElementById("info-overlay").classList.add("visible");
+}
+
+function closeInfo(){
+  document.getElementById("info-overlay").classList.remove("visible");
+}
+
+document.getElementById("info-overlay").addEventListener("click", function(e){
+  if(e.target === this) closeInfo();
+});
+
+// Enviar con Enter en los inputs
+document.querySelectorAll("input").forEach(inp => {
+  inp.addEventListener("keydown", e => {
+    if(e.key === "Enter") checkAnswers();
+  });
+});
+
+// =========================================
+// INIT
+// =========================================
+
+loadData();
+
+</script>
+</body>
+</html>
