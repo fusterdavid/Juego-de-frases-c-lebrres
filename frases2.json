@@ -1,0 +1,1172 @@
+[
+  {
+    "frase": "La imaginación es más importante que el conocimiento.",
+    "autor": "Albert Einstein",
+    "epoca": "Siglo XX",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "La vida es aquello que te va sucediendo mientras te empeñas en hacer otros planes.",
+    "autor": "John Lennon",
+    "epoca": "Siglo XX",
+    "categoria": "Música"
+  },
+  {
+    "frase": "El que lee mucho y anda mucho, ve mucho y sabe mucho.",
+    "autor": "Miguel de Cervantes",
+    "epoca": "Siglo XVI-XVII",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "Ser o no ser, esa es la cuestión.",
+    "autor": "William Shakespeare",
+    "epoca": "Siglo XVI-XVII",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "Solo sé que no sé nada.",
+    "autor": "Sócrates",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "El hombre es la medida de todas las cosas.",
+    "autor": "Protágoras",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Dime y lo olvido, enséñame y lo recuerdo, involúcrame y lo aprendo.",
+    "autor": "Benjamin Franklin",
+    "epoca": "Siglo XVIII",
+    "categoria": "Política"
+  },
+  {
+    "frase": "La educación es el arma más poderosa que puedes usar para cambiar el mundo.",
+    "autor": "Nelson Mandela",
+    "epoca": "Siglo XX-XXI",
+    "categoria": "Política"
+  },
+  {
+    "frase": "El arte es la mentira que nos permite conocer la verdad.",
+    "autor": "Pablo Picasso",
+    "epoca": "Siglo XX",
+    "categoria": "Arte"
+  },
+  {
+    "frase": "No llores porque terminó, sonríe porque sucedió.",
+    "autor": "Gabriel García Márquez",
+    "epoca": "Siglo XX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "La libertad no es otra cosa que la oportunidad de ser mejores.",
+    "autor": "Albert Camus",
+    "epoca": "Siglo XX",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La felicidad no es algo hecho. Viene de tus propias acciones.",
+    "autor": "Dalái Lama",
+    "epoca": "Siglo XX-XXI",
+    "categoria": "Espiritualidad"
+  },
+  {
+    "frase": "En el principio era el Verbo.",
+    "autor": "San Juan Evangelista",
+    "epoca": "Antigüedad",
+    "categoria": "Religión"
+  },
+  {
+    "frase": "Cogito ergo sum. (Pienso, luego existo.)",
+    "autor": "René Descartes",
+    "epoca": "Siglo XVII",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "No hay camino para la paz; la paz es el camino.",
+    "autor": "Mahatma Gandhi",
+    "epoca": "Siglo XX",
+    "categoria": "Política"
+  },
+  {
+    "frase": "La única forma de hacer un gran trabajo es amar lo que haces.",
+    "autor": "Steve Jobs",
+    "epoca": "Siglo XX-XXI",
+    "categoria": "Tecnología"
+  },
+  {
+    "frase": "Dos cosas son infinitas: el universo y la estupidez humana; y del universo no estoy seguro.",
+    "autor": "Albert Einstein",
+    "epoca": "Siglo XX",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "El secreto de la salud mental y corporal está en no llorar por las pérdidas, sino en adaptarse a los cambios.",
+    "autor": "Charles Darwin",
+    "epoca": "Siglo XIX",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "Lo que sabemos es una gota de agua; lo que ignoramos es el océano.",
+    "autor": "Isaac Newton",
+    "epoca": "Siglo XVII-XVIII",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "La vida sin examen no merece ser vivida.",
+    "autor": "Sócrates",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "He aprendido que la gente olvidará lo que dijiste, olvidará lo que hiciste, pero nunca olvidará cómo la hiciste sentir.",
+    "autor": "Maya Angelou",
+    "epoca": "Siglo XX-XXI",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "La música es el lenguaje del alma.",
+    "autor": "Ludwig van Beethoven",
+    "epoca": "Siglo XVIII-XIX",
+    "categoria": "Música"
+  },
+  {
+    "frase": "No existe un camino hacia la felicidad: la felicidad es el camino.",
+    "autor": "Buda",
+    "epoca": "Antigüedad",
+    "categoria": "Espiritualidad"
+  },
+  {
+    "frase": "El amor es la única fuerza capaz de transformar a un enemigo en amigo.",
+    "autor": "Martin Luther King",
+    "epoca": "Siglo XX",
+    "categoria": "Política"
+  },
+  {
+    "frase": "Dondequiera que vayas, ve con todo tu corazón.",
+    "autor": "Confucio",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Ojo por ojo y el mundo se quedará ciego.",
+    "autor": "Mahatma Gandhi",
+    "epoca": "Siglo XX",
+    "categoria": "Política"
+  },
+  {
+    "frase": "Pienso, luego existo.",
+    "autor": "René Descartes",
+    "epoca": "Siglo XVII",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La verdadera sabiduría está en reconocer la propia ignorancia.",
+    "autor": "Sócrates",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Veni, vidi, vici.",
+    "autor": "Julio César",
+    "epoca": "Antigüedad",
+    "categoria": "Política"
+  },
+  {
+    "frase": "El conocimiento es poder.",
+    "autor": "Francis Bacon",
+    "epoca": "Siglo XVI-XVII",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Un amigo de todos es un amigo de nadie.",
+    "autor": "Aristóteles",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La paciencia es amarga, pero su fruto es dulce.",
+    "autor": "Jean-Jacques Rousseau",
+    "epoca": "Siglo XVIII",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La belleza salvará al mundo.",
+    "autor": "Fiódor Dostoyevski",
+    "epoca": "Siglo XIX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "Lo esencial es invisible a los ojos.",
+    "autor": "Antoine de Saint-Exupéry",
+    "epoca": "Siglo XX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "No hay que temer a nada en la vida, solo hay que comprenderlo.",
+    "autor": "Marie Curie",
+    "epoca": "Siglo XIX-XX",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "La simplicidad es la máxima sofisticación.",
+    "autor": "Leonardo da Vinci",
+    "epoca": "Siglo XV-XVI",
+    "categoria": "Arte"
+  },
+  {
+    "frase": "Ningún gran genio ha existido sin un toque de locura.",
+    "autor": "Aristóteles",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Un viaje de mil millas comienza con un solo paso.",
+    "autor": "Lao Tsé",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La peor soledad es no estar cómodo contigo mismo.",
+    "autor": "Mark Twain",
+    "epoca": "Siglo XIX-XX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "La música compone los ánimos descompuestos y alivia los trabajos que nacen del espíritu.",
+    "autor": "Miguel de Cervantes",
+    "epoca": "Siglo XVI-XVII",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "No encuentres la falta, encuentra el remedio.",
+    "autor": "Henry Ford",
+    "epoca": "Siglo XIX-XX",
+    "categoria": "Negocios"
+  },
+  {
+    "frase": "El éxito consiste en ir de fracaso en fracaso sin perder el entusiasmo.",
+    "autor": "Winston Churchill",
+    "epoca": "Siglo XX",
+    "categoria": "Política"
+  },
+  {
+    "frase": "Si he visto más lejos es porque estoy sentado sobre los hombros de gigantes.",
+    "autor": "Isaac Newton",
+    "epoca": "Siglo XVII-XVIII",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "Vive como si fueras a morir mañana. Aprende como si fueras a vivir siempre.",
+    "autor": "Mahatma Gandhi",
+    "epoca": "Siglo XX",
+    "categoria": "Política"
+  },
+  {
+    "frase": "La medida del amor es amar sin medida.",
+    "autor": "San Agustín",
+    "epoca": "Antigüedad",
+    "categoria": "Religión"
+  },
+  {
+    "frase": "Quien tiene un porqué para vivir puede soportar casi cualquier cómo.",
+    "autor": "Friedrich Nietzsche",
+    "epoca": "Siglo XIX",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Es mejor ser rey de tu silencio que esclavo de tus palabras.",
+    "autor": "William Shakespeare",
+    "epoca": "Siglo XVI-XVII",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "La duda es la madre de la invención.",
+    "autor": "Galileo Galilei",
+    "epoca": "Siglo XVI-XVII",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "El genio es un uno por ciento de inspiración y un noventa y nueve por ciento de transpiración.",
+    "autor": "Thomas Edison",
+    "epoca": "Siglo XIX-XX",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "La justicia sin fuerza es impotente; la fuerza sin justicia es tiránica.",
+    "autor": "Blaise Pascal",
+    "epoca": "Siglo XVII",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "No vemos las cosas como son, las vemos como somos.",
+    "autor": "Immanuel Kant",
+    "epoca": "Siglo XVIII",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Cada niño es un artista. El problema es cómo seguir siendo artista al crecer.",
+    "autor": "Pablo Picasso",
+    "epoca": "Siglo XX",
+    "categoria": "Arte"
+  },
+  {
+    "frase": "La historia la escriben los vencedores.",
+    "autor": "George Orwell",
+    "epoca": "Siglo XX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "Los hombres geniales empiezan las grandes obras, los hombres trabajadores las terminan.",
+    "autor": "Leonardo da Vinci",
+    "epoca": "Siglo XV-XVI",
+    "categoria": "Arte"
+  },
+  {
+    "frase": "Una vida gastada cometiendo errores no solo es más honorable, sino más útil que una vida gastada haciendo nada.",
+    "autor": "George Bernard Shaw",
+    "epoca": "Siglo XIX-XX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "La mejor forma de predecir el futuro es crearlo.",
+    "autor": "Peter Drucker",
+    "epoca": "Siglo XX",
+    "categoria": "Negocios"
+  },
+  {
+    "frase": "Donde no hay visión, el pueblo perece.",
+    "autor": "Rey Salomón",
+    "epoca": "Antigüedad",
+    "categoria": "Religión"
+  },
+  {
+    "frase": "El ignorante afirma, el sabio duda y reflexiona.",
+    "autor": "Aristóteles",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La mayor gloria no es nunca caer, sino levantarse siempre.",
+    "autor": "Nelson Mandela",
+    "epoca": "Siglo XX-XXI",
+    "categoria": "Política"
+  },
+  {
+    "frase": "La verdad os hará libres.",
+    "autor": "Jesús de Nazaret",
+    "epoca": "Antigüedad",
+    "categoria": "Religión"
+  },
+  {
+    "frase": "El hombre nace libre, pero en todas partes está encadenado.",
+    "autor": "Jean-Jacques Rousseau",
+    "epoca": "Siglo XVIII",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Solo los muertos han visto el final de la guerra.",
+    "autor": "Platón",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La excelencia no es un acto, sino un hábito.",
+    "autor": "Aristóteles",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Siempre parece imposible hasta que se hace.",
+    "autor": "Nelson Mandela",
+    "epoca": "Siglo XX-XXI",
+    "categoria": "Política"
+  },
+  {
+    "frase": "Prefiero morir de pie que vivir de rodillas.",
+    "autor": "Emiliano Zapata",
+    "epoca": "Siglo XIX-XX",
+    "categoria": "Política"
+  },
+  {
+    "frase": "Estar preparado es la mitad de la victoria.",
+    "autor": "Miguel de Cervantes",
+    "epoca": "Siglo XVI-XVII",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "El amor no tiene edad, siempre está naciendo.",
+    "autor": "Blaise Pascal",
+    "epoca": "Siglo XVII",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "En tiempos de engaño universal, decir la verdad es un acto revolucionario.",
+    "autor": "George Orwell",
+    "epoca": "Siglo XX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "El arte no reproduce lo visible, sino que hace visible.",
+    "autor": "Paul Klee",
+    "epoca": "Siglo XX",
+    "categoria": "Arte"
+  },
+  {
+    "frase": "La raíz de la educación es amarga, pero sus frutos son dulces.",
+    "autor": "Aristóteles",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Un pueblo que oprime a otro no puede ser libre.",
+    "autor": "Karl Marx",
+    "epoca": "Siglo XIX",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Aquel que no recuerda el pasado está condenado a repetirlo.",
+    "autor": "George Santayana",
+    "epoca": "Siglo XX",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Solo aquellos que se atreven a fracasar a lo grande pueden conseguir algo grande.",
+    "autor": "Robert F. Kennedy",
+    "epoca": "Siglo XX",
+    "categoria": "Política"
+  },
+  {
+    "frase": "No hay barrera, cerradura ni cerrojo que puedas imponer a la libertad de mi mente.",
+    "autor": "Virginia Woolf",
+    "epoca": "Siglo XX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "El único error real es aquel del que no aprendemos nada.",
+    "autor": "Henry Ford",
+    "epoca": "Siglo XIX-XX",
+    "categoria": "Negocios"
+  },
+  {
+    "frase": "La envidia es una declaración de inferioridad.",
+    "autor": "Napoleon Bonaparte",
+    "epoca": "Siglo XVIII-XIX",
+    "categoria": "Historia"
+  },
+  {
+    "frase": "Invertir en conocimientos produce siempre los mejores beneficios.",
+    "autor": "Benjamin Franklin",
+    "epoca": "Siglo XVIII",
+    "categoria": "Política"
+  },
+  {
+    "frase": "El valor es saber a qué no se le debe temer.",
+    "autor": "Platón",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Podrán cortar todas las flores, pero no podrán detener la primavera.",
+    "autor": "Pablo Neruda",
+    "epoca": "Siglo XX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "No puedo enseñar nada a nadie. Solo puedo hacerles pensar.",
+    "autor": "Sócrates",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "El destino baraja las cartas, pero nosotros las jugamos.",
+    "autor": "Arthur Schopenhauer",
+    "epoca": "Siglo XIX",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La inteligencia sin ambición es un ave sin alas.",
+    "autor": "Salvador Dalí",
+    "epoca": "Siglo XX",
+    "categoria": "Arte"
+  },
+  {
+    "frase": "La ciencia es el alma de la prosperidad de las naciones y la fuente de vida de todo progreso.",
+    "autor": "Louis Pasteur",
+    "epoca": "Siglo XIX",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "Es más fácil desintegrar un átomo que un prejuicio.",
+    "autor": "Albert Einstein",
+    "epoca": "Siglo XX",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "La política es el arte de buscar problemas, encontrarlos, hacer un diagnóstico falso y aplicar después los remedios equivocados.",
+    "autor": "Groucho Marx",
+    "epoca": "Siglo XX",
+    "categoria": "Cine"
+  },
+  {
+    "frase": "Todo lo que se puede imaginar es real.",
+    "autor": "Pablo Picasso",
+    "epoca": "Siglo XX",
+    "categoria": "Arte"
+  },
+  {
+    "frase": "La felicidad es cuando lo que piensas, lo que dices y lo que haces están en armonía.",
+    "autor": "Mahatma Gandhi",
+    "epoca": "Siglo XX",
+    "categoria": "Política"
+  },
+  {
+    "frase": "Nada en la vida es para ser temido, es solo para ser comprendido. Ahora es el momento de comprender más, para que podamos temer menos.",
+    "autor": "Marie Curie",
+    "epoca": "Siglo XIX-XX",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "El hombre que no lee no tiene ninguna ventaja sobre el hombre que no sabe leer.",
+    "autor": "Mark Twain",
+    "epoca": "Siglo XIX-XX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "Aprende las reglas como un profesional, para que puedas romperlas como un artista.",
+    "autor": "Pablo Picasso",
+    "epoca": "Siglo XX",
+    "categoria": "Arte"
+  },
+  {
+    "frase": "No hay caminos para la sabiduría, la sabiduría es el camino.",
+    "autor": "Lao Tsé",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Para ser insustituible, uno siempre debe ser diferente.",
+    "autor": "Coco Chanel",
+    "epoca": "Siglo XX",
+    "categoria": "Moda"
+  },
+  {
+    "frase": "La libertad está en ser dueños de nuestra propia vida.",
+    "autor": "Platón",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "El pesimista ve dificultad en toda oportunidad. El optimista ve oportunidad en toda dificultad.",
+    "autor": "Winston Churchill",
+    "epoca": "Siglo XX",
+    "categoria": "Política"
+  },
+  {
+    "frase": "Nunca rompas el silencio si no es para mejorarlo.",
+    "autor": "Ludwig van Beethoven",
+    "epoca": "Siglo XVIII-XIX",
+    "categoria": "Música"
+  },
+  {
+    "frase": "La única verdad es la realidad.",
+    "autor": "Aristóteles",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "No cuentes los días, haz que los días cuenten.",
+    "autor": "Muhammad Ali",
+    "epoca": "Siglo XX",
+    "categoria": "Deportes"
+  },
+  {
+    "frase": "Un buen libro es un amigo que nunca te da la espalda.",
+    "autor": "Víctor Hugo",
+    "epoca": "Siglo XIX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "Si no defiendes algo, caerás por cualquier cosa.",
+    "autor": "Malcolm X",
+    "epoca": "Siglo XX",
+    "categoria": "Política"
+  },
+  {
+    "frase": "La verdad no se encuentra duplicando los hechos, sino simplificándolos.",
+    "autor": "Isaac Newton",
+    "epoca": "Siglo XVII-XVIII",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "No hay viento favorable para el que no sabe a qué puerto va.",
+    "autor": "Séneca",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La risa es el sol que ahuyenta el invierno del rostro humano.",
+    "autor": "Víctor Hugo",
+    "epoca": "Siglo XIX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "Lo que no te mata te hace más fuerte.",
+    "autor": "Friedrich Nietzsche",
+    "epoca": "Siglo XIX",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Los libros tienen sus propios destinos.",
+    "autor": "Terenciano Mauro",
+    "epoca": "Antigüedad",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "Hacer dos cosas a la vez es no hacer ninguna de ellas.",
+    "autor": "Publio Siro",
+    "epoca": "Antigüedad",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "Donde reina el amor, sobran las leyes.",
+    "autor": "Platón",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La paciencia y el tiempo hacen más que la fuerza y la pasión.",
+    "autor": "Jean de La Fontaine",
+    "epoca": "Siglo XVII",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "El que no está conmigo, está contra mí.",
+    "autor": "Jesús de Nazaret",
+    "epoca": "Antigüedad",
+    "categoria": "Religión"
+  },
+  {
+    "frase": "La creatividad es la inteligencia divirtiéndose.",
+    "autor": "Albert Einstein",
+    "epoca": "Siglo XX",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "Un ojo abierto, el otro mirando hacia adentro.",
+    "autor": "Amedeo Modigliani",
+    "epoca": "Siglo XIX-XX",
+    "categoria": "Arte"
+  },
+  {
+    "frase": "El hombre sabio no dice todo lo que piensa, pero siempre piensa todo lo que dice.",
+    "autor": "Aristóteles",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La verdad siempre sale a la luz tarde o temprano.",
+    "autor": "Menandro",
+    "epoca": "Antigüedad",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "La poesía es la pintura de los oídos.",
+    "autor": "Lope de Vega",
+    "epoca": "Siglo XVI-XVII",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "Amar es encontrar en la felicidad de otro la propia felicidad.",
+    "autor": "Gottfried Leibniz",
+    "epoca": "Siglo XVII-XVIII",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La religión es el opio del pueblo.",
+    "autor": "Karl Marx",
+    "epoca": "Siglo XIX",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "El que busca la verdad corre el riesgo de encontrarla.",
+    "autor": "Isabel Allende",
+    "epoca": "Siglo XX-XXI",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "La arquitectura es música congelada.",
+    "autor": "Arthur Schopenhauer",
+    "epoca": "Siglo XIX",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "El pájaro canta aunque la rama cruja, porque sabe lo que son sus alas.",
+    "autor": "Salvador Díaz Mirón",
+    "epoca": "Siglo XIX-XX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "La locura es hacer lo mismo una y otra vez esperando obtener resultados diferentes.",
+    "autor": "Rita Mae Brown",
+    "epoca": "Siglo XX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "Ningún hombre puede cruzar el mismo río dos veces, porque ni el hombre ni el río son los mismos.",
+    "autor": "Heráclito",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "El único límite para nuestra comprensión del mañana serán nuestras dudas de hoy.",
+    "autor": "Franklin D. Roosevelt",
+    "epoca": "Siglo XX",
+    "categoria": "Política"
+  },
+  {
+    "frase": "Pensar es fácil, actuar es difícil, y poner los pensamientos de uno en acción es lo más difícil del mundo.",
+    "autor": "Goethe",
+    "epoca": "Siglo XVIII-XIX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "El poder tiende a corromper y el poder absoluto corrompe absolutamente.",
+    "autor": "Lord Acton",
+    "epoca": "Siglo XIX-XX",
+    "categoria": "Historia"
+  },
+  {
+    "frase": "Si buscas resultados distintos, no hagas siempre lo mismo.",
+    "autor": "Albert Einstein",
+    "epoca": "Siglo XX",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "O caminamos todos juntos hacia la paz, o seremos destruidos por nuestro propio poder.",
+    "autor": "Martin Luther King",
+    "epoca": "Siglo XX",
+    "categoria": "Política"
+  },
+  {
+    "frase": "La vida es una obra de teatro que no permite ensayos.",
+    "autor": "Charles Chaplin",
+    "epoca": "Siglo XX",
+    "categoria": "Cine"
+  },
+  {
+    "frase": "Quien de verdad sabe de qué habla, no encuentra razones para levantar la voz.",
+    "autor": "Leonardo da Vinci",
+    "epoca": "Siglo XV-XVI",
+    "categoria": "Arte"
+  },
+  {
+    "frase": "Un mapa del mundo que no incluya la utopía ni siquiera vale la pena mirar.",
+    "autor": "Oscar Wilde",
+    "epoca": "Siglo XIX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "El lenguaje de la verdad debe ser, sin duda alguna, simple y sin artificios.",
+    "autor": "Séneca",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Es herradura de la suerte la que te forjas tú mismo.",
+    "autor": "Fiódor Dostoyevski",
+    "epoca": "Siglo XIX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "La juventud es un defecto que se corrige con el tiempo.",
+    "autor": "Enrique Jardiel Poncela",
+    "epoca": "Siglo XX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "No hay nada más terrible que una ignorancia activa.",
+    "autor": "Goethe",
+    "epoca": "Siglo XVIII-XIX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "Cuanto más conozco a los hombres, más quiero a mi perro.",
+    "autor": "Diógenes de Sinope",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Para comprender el mundo, uno tiene que apartarse de él a veces.",
+    "autor": "Albert Camus",
+    "epoca": "Siglo XX",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La pintura es poesía muda; la poesía, pintura ciega.",
+    "autor": "Leonardo da Vinci",
+    "epoca": "Siglo XV-XVI",
+    "categoria": "Arte"
+  },
+  {
+    "frase": "El dinero no compra la felicidad, pero complementa la miseria.",
+    "autor": "Jorge Luis Borges",
+    "epoca": "Siglo XX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "Los conceptos sin intuiciones están vacíos, las intuiciones sin conceptos están ciegas.",
+    "autor": "Immanuel Kant",
+    "epoca": "Siglo XVIII",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "El hombre es el único animal que tropieza dos veces con la misma piedra.",
+    "autor": "Cicerón",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "No se puede dar marcha atrás al reloj, pero se le puede dar cuerda otra vez.",
+    "autor": "Albert Einstein",
+    "epoca": "Siglo XX",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "Todo cuerpo persevera en su estado de reposo o movimiento uniforme a no ser que sea obligado a cambiar por fuerzas impresas.",
+    "autor": "Isaac Newton",
+    "epoca": "Siglo XVII-XVIII",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "La ciencia no sabe de países, porque el conocimiento pertenece a la humanidad.",
+    "autor": "Louis Pasteur",
+    "epoca": "Siglo XIX",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "La única revolución posible es la que se hace dentro de uno mismo.",
+    "autor": "Jiddu Krishnamurti",
+    "epoca": "Siglo XX",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "No se puede desatar un nudo sin saber cómo está hecho.",
+    "autor": "Aristóteles",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Cada solución genera nuevos problemas.",
+    "autor": "Arthur Block",
+    "epoca": "Siglo XX",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "No heredamos la tierra de nuestros antepasados, la tomamos prestada de nuestros hijos.",
+    "autor": "Proverbio Indígena",
+    "epoca": "Desconocida",
+    "categoria": "Ecología"
+  },
+  {
+    "frase": "El sabio puede cambiar de opinión. El necio, nunca.",
+    "autor": "Immanuel Kant",
+    "epoca": "Siglo XVIII",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La mejor estructura publicitaria es un cliente satisfecho.",
+    "autor": "Philip Kotler",
+    "epoca": "Siglo XX-XXI",
+    "categoria": "Negocios"
+  },
+  {
+    "frase": "Quien no posee la clave de sí mismo, no posee nada.",
+    "autor": "Friedrich Nietzsche",
+    "epoca": "Siglo XIX",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "El corazón tiene razones que la razón no comprende.",
+    "autor": "Blaise Pascal",
+    "epoca": "Siglo XVII",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Lo que con mucho trabajo se adquiere, más se ama.",
+    "autor": "Aristóteles",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Hay algo peor que la muerte, y es la cobardía.",
+    "autor": "José de San Martín",
+    "epoca": "Siglo XVIII-XIX",
+    "categoria": "Historia"
+  },
+  {
+    "frase": "No dejes para mañana lo que puedas hacer hoy.",
+    "autor": "Benjamin Franklin",
+    "epoca": "Siglo XVIII",
+    "categoria": "Política"
+  },
+  {
+    "frase": "El éxito no es la clave de la felicidad. La felicidad es la clave del éxito.",
+    "autor": "Albert Schweitzer",
+    "epoca": "Siglo XX",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Los ojos son el espejo del alma.",
+    "autor": "Cicerón",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La imaginación lo gobierna todo.",
+    "autor": "Napoleon Bonaparte",
+    "epoca": "Siglo XVIII-XIX",
+    "categoria": "Historia"
+  },
+  {
+    "frase": "Un día sin risa es un día perdido.",
+    "autor": "Charles Chaplin",
+    "epoca": "Siglo XX",
+    "categoria": "Cine"
+  },
+  {
+    "frase": "No hay verdades absolutas; todas las verdades son verdades a medias.",
+    "autor": "Alfred North Whitehead",
+    "epoca": "Siglo XIX-XX",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La mayor parte de nuestras faltas son más perdonables que los medios que inventamos para ocultarlas.",
+    "autor": "François de La Rochefoucauld",
+    "epoca": "Siglo XVII",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Es un gran consuelo saber que el error es humano.",
+    "autor": "Molière",
+    "epoca": "Siglo XVII",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "Ningún descubrimiento se hizo jamás sin una conjetura audaz.",
+    "autor": "Isaac Newton",
+    "epoca": "Siglo XVII-XVIII",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "La verdad se encuentra en la simplicidad, y no en la multiplicidad y confusión de las cosas.",
+    "autor": "Isaac Newton",
+    "epoca": "Siglo XVII-XVIII",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "Donde hay música no puede haber cosa mala.",
+    "autor": "Miguel de Cervantes",
+    "epoca": "Siglo XVI-XVII",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "La vida es una serie de colisiones con el futuro.",
+    "autor": "José Ortega y Gasset",
+    "epoca": "Siglo XX",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La buena conciencia es la mejor almohada para dormir.",
+    "autor": "Sócrates",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "El hombre superior es digno, pero no orgulloso; el hombre inferior es orgulloso, pero no digno.",
+    "autor": "Confucio",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "No es que tengamos poco tiempo, sino que perdemos mucho.",
+    "autor": "Séneca",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La recompensa de una buena acción está en haberla hecho.",
+    "autor": "Séneca",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "El verdadero viaje de descubrimiento no consiste en buscar nuevos paisajes, sino en tener nuevos ojos.",
+    "autor": "Marcel Proust",
+    "epoca": "Siglo XIX-XX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "No se puede cruzar el océano si no se tiene el valor de perder de vista la costa.",
+    "autor": "Cristóbal Colón",
+    "epoca": "Siglo XV-XVI",
+    "categoria": "Historia"
+  },
+  {
+    "frase": "La esperanza es el sueño del hombre despierto.",
+    "autor": "Aristóteles",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La culpa la tiene el tiempo, todo se pasa y todo se olvida.",
+    "autor": "Miguel de Cervantes",
+    "epoca": "Siglo XVI-XVII",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "La música es la aritmética de los sonidos, como la óptica es la geometría de la luz.",
+    "autor": "Claude Debussy",
+    "epoca": "Siglo XIX-XX",
+    "categoria": "Música"
+  },
+  {
+    "frase": "La filosofía es un esfuerzo por comprender el universo por medio de conceptos.",
+    "autor": "Hegel",
+    "epoca": "Siglo XVIII-XIX",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Un estado que no es capaz de cambiar no es capaz de conservarse.",
+    "autor": "Edmund Burke",
+    "epoca": "Siglo XVIII",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "El futuro pertenece a quienes creen en la belleza de sus sueños.",
+    "autor": "Eleanor Roosevelt",
+    "epoca": "Siglo XX",
+    "categoria": "Política"
+  },
+  {
+    "frase": "Las ciencias aplicadas no existen, solo existen las aplicaciones de la ciencia.",
+    "autor": "Louis Pasteur",
+    "epoca": "Siglo XIX",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "El amor es una enfermedad mental grave.",
+    "autor": "Platón",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "El matrimonio debe combatir un monstruo que todo lo devora: la costumbre.",
+    "autor": "Honoré de Balzac",
+    "epoca": "Siglo XIX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "La mentira más común es aquella con la que la gente se engaña a sí misma.",
+    "autor": "Friedrich Nietzsche",
+    "epoca": "Siglo XIX",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Una persona que nunca ha cometido un error nunca ha intentado nada nuevo.",
+    "autor": "Albert Einstein",
+    "epoca": "Siglo XX",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "Los hombres son tan simples que el que quiere engañar siempre encuentra a alguien que se deja engañar.",
+    "autor": "Nicolás Maquiavelo",
+    "epoca": "Siglo XV-XVI",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "No hay nada nuevo bajo el sol.",
+    "autor": "Eclesiastés",
+    "epoca": "Antigüedad",
+    "categoria": "Religión"
+  },
+  {
+    "frase": "La música puede cambiar el mundo porque puede cambiar a las personas.",
+    "autor": "Bono",
+    "epoca": "Siglo XX-XXI",
+    "categoria": "Música"
+  },
+  {
+    "frase": "Cuanto más sé, más me doy cuenta de lo mucho que me queda por saber.",
+    "autor": "Albert Einstein",
+    "epoca": "Siglo XX",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "La lectura es para la mente lo que el ejercicio es para el cuerpo.",
+    "autor": "Joseph Addison",
+    "epoca": "Siglo XVII-XVIII",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "Aquel que tiene paciencia obtendrá lo que desea.",
+    "autor": "Benjamin Franklin",
+    "epoca": "Siglo XVIII",
+    "categoria": "Política"
+  },
+  {
+    "frase": "La naturaleza no hace nada en vano.",
+    "autor": "Aristóteles",
+    "epoca": "Antigüedad",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "Para el hombre con un martillo, todo parece un clavo.",
+    "autor": "Mark Twain",
+    "epoca": "Siglo XIX-XX",
+    "categoria": "Literatura"
+  },
+  {
+    "frase": "Un herido por la verdad es un sanado por la realidad.",
+    "autor": "San Agustín",
+    "epoca": "Antigüedad",
+    "categoria": "Religión"
+  },
+  {
+    "frase": "No todo lo que se cuenta cuenta, ni todo lo que cuenta se puede contar.",
+    "autor": "Albert Einstein",
+    "epoca": "Siglo XX",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "El arte no es lo que ves, sino lo que haces que otros vean.",
+    "autor": "Edgar Degas",
+    "epoca": "Siglo XIX-XX",
+    "categoria": "Arte"
+  },
+  {
+    "frase": "Quien no se mueve, no siente las cadenas.",
+    "autor": "Rosa Luxemburgo",
+    "epoca": "Siglo XIX-XX",
+    "categoria": "Política"
+  },
+  {
+    "frase": "La vida es corta, el arte es largo.",
+    "autor": "Hipócrates",
+    "epoca": "Antigüedad",
+    "categoria": "Ciencia"
+  },
+  {
+    "frase": "El hombre es el lobo del hombre.",
+    "autor": "Thomas Hobbes",
+    "epoca": "Siglo XVII",
+    "categoria": "Filosofía"
+  },
+  {
+    "frase": "La felicidad no consiste en hacer lo que uno quiere, sino en querer lo que uno hace.",
+    "autor": "Jean-Paul Sartre",
+    "epoca": "Siglo XX",
+    "categoria": "Filosofía"
+  }
+]
